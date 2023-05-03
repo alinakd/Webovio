@@ -1,0 +1,77 @@
+/* Common styles */
+section,
+body {
+margin: 0;
+font-family: 'Poppins';
+}
+
+/* Elements styles */
+
+.section1 {
+background-image: url(../assets/section1/background_s1.png);
+background-repeat: no-repeat;
+background-size: 100%;
+height: 100vh;
+padding: 24px 166px;
+color: white;
+box-sizing: border-box;
+position: relative;
+}
+
+.section1_logo {
+    margin-bottom: 130px;
+}
+
+.section1 p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin: 0;
+}
+
+.section1 h1 {
+    font-weight: 700;
+font-size: 60px;
+line-height: 74px;
+margin: 24px 0;
+}
+
+.section1 h4 {
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 45px;
+}
+
+.section1 .content {
+    max-width: 615px;
+}
+
+.section1 .content a {
+    font-weight: 600;
+font-size: 16px;
+line-height: 18px;
+color: #FFD723;
+}
+
+.section1 .content a::before {
+    content: "";
+    border-top: 6px solid transparent;
+    border-bottom: 6px solid transparent;
+    border-left: 6px solid #FFD723;
+    margin-right: 6px;
+    display: inline-block;
+}
+.section1 .menu {
+position:absolute;
+top: 26px;
+right: 125px;
+background-color:#F5F6F7;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
