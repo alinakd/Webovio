@@ -127,7 +127,7 @@ hr {
 }
 
 .section2 .subsection1 {
-  padding: 290px 0 183px 165px;
+  padding: 240px 0 183px 165px;
   position: relative;
 }
 
@@ -156,6 +156,7 @@ hr {
   margin: 0 0 50px 0;
   font-size: 24px;
   line-height: 40px;
+  font-style: italic;
 }
 
 .subsection1 .quote .avatars {
@@ -170,7 +171,9 @@ hr {
 .subsection1 .quote .user_info {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
+
 .subsection1 .quote .name {
   font-weight: 700;
   font-size: 22px;
