@@ -1,77 +1,184 @@
 /* Common styles */
 section,
 body {
-margin: 0;
-font-family: 'Poppins';
+  margin: 0;
+  font-family: "Poppins";
+  color: #4d533c;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.expandable_link::before {
+  content: "";
+  border-top: 6px solid transparent;
+  border-bottom: 6px solid transparent;
+  margin-right: 6px;
+  display: inline-block;
+  border-left-width: 6px;
+  border-left-style: solid;
+}
+
+.expandable_link {
+  font-weight: 600;
+  line-height: 18px;
+}
+
+hr {
+  border-color: rgba(33, 56, 66, 0.0955529);
+  width: calc(100% - 330px);
 }
 
 /* Elements styles */
 
 .section1 {
-background-image: url(../assets/section1/background_s1.png);
-background-repeat: no-repeat;
-background-size: 100%;
-height: 100vh;
-padding: 24px 166px;
-color: white;
-box-sizing: border-box;
-position: relative;
+  background-image: url(../assets/section1/background_s1.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 100vh;
+  padding: 24px 166px 210px;
+  color: white;
+  position: relative;
 }
 
 .section1_logo {
-    margin-bottom: 130px;
+  margin-bottom: 130px;
 }
 
 .section1 p {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin: 0;
 }
 
 .section1 h1 {
-    font-weight: 700;
-font-size: 60px;
-line-height: 74px;
-margin: 24px 0;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 74px;
+  margin: 24px 0;
 }
 
 .section1 h4 {
-    font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-margin-bottom: 45px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 45px;
 }
 
 .section1 .content {
-    max-width: 615px;
+  max-width: 615px;
 }
 
 .section1 .content a {
-    font-weight: 600;
-font-size: 16px;
-line-height: 18px;
-color: #FFD723;
+  color: #ffd723;
 }
 
-.section1 .content a::before {
-    content: "";
-    border-top: 6px solid transparent;
-    border-bottom: 6px solid transparent;
-    border-left: 6px solid #FFD723;
-    margin-right: 6px;
-    display: inline-block;
-}
 .section1 .menu {
-position:absolute;
-top: 26px;
-right: 125px;
-background-color:#F5F6F7;
-border-radius: 50%;
-width: 40px;
-height: 40px;
-display: flex;
-justify-content: center;
-align-items: center;
+  position: absolute;
+  top: 26px;
+  right: 125px;
+  background-color: #f5f6f7;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+.section1 .logos {
+  position: absolute;
+  bottom: -114px;
+  padding: 60px 166px 54px 65px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 166px);
+  box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+  border-radius: 2px;
+  z-index: 1;
+}
+
+.section2 .subsection1 .content {
+  max-width: 470px;
+}
+
+.section2 .subsection1 p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: rgba(77, 83, 60, 0.9);
+  margin: 0 0 30px 0;
+}
+
+.section2 .subsection1 h1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  margin: 0 0 35px 0;
+}
+
+.highlight {
+  background-color: rgba(255, 215, 35, 0.1);
+}
+
+.section2 .subsection1 {
+  padding: 290px 0 183px 165px;
+  position: relative;
+}
+
+.section2 h4 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(33, 56, 66, 0.6);
+  margin: 0 0 42px 0;
+}
+
+.section2 .expandable_link {
+  color: #d4d6d4;
+}
+
+.section2 .subsection1 .quote {
+  position: absolute;
+  max-width: 474px;
+  top: 0;
+  right: 166px;
+  box-shadow: 0px 100px 100px rgba(0, 0, 0, 0.145947);
+  padding: 235px 40px 60px;
+}
+
+.section2 .subsection1 blockquote {
+  margin: 0 0 50px 0;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.subsection1 .quote .avatars {
+  background-image: url(..//assets/section2/avatar_1.png);
+  border-radius: 50%;
+  background-size: cover;
+  box-shadow: 20px 25px 43px rgba(0, 0, 0, 0.18);
+  width: 90px;
+  height: 90px;
+  margin-right: 30px;
+}
+.subsection1 .quote .user_info {
+  display: flex;
+  flex-direction: row;
+}
+.subsection1 .quote .name {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  margin-bottom: 6px;
+}
+
+.subsection1 .quote .name_info {
+  display: flex;
+  flex-direction: column;
+}
