@@ -239,15 +239,50 @@ hr {
   max-width: 518px;
 }
 
+.section2 .subsection2 .block2 {
+  display: flex;
+  margin-bottom: 165px;
+}
+.subsection2 .block2 .avatars {
+  background-image: url(../assets/section2/avatar_2.png);
+}
+
+.section2 .subsection2 .block3 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 165px;
+}
+
+.section2 .subsection2 .block3 .content {
+  margin-left: 172px;
+}
+
+.section2 .subsection2 .block3 .avatars {
+  background-image: url(/assets/section2/avatar_3.png);
+}
+
+.section2 .subsection2 .block3 .user_comment {
+  left: -40px;
+  bottom: -20px;
+}
+
+.section2 .subsection2 .block4 {
+  display: flex;
+}
+
+.section2 .subsection2 .block4 .avatars {
+  background-image: url(/assets/section2/avatar_4.png);
+}
+
+.section2 .subsection2 .block4 .content h4 {
+  margin-bottom: 115px;
+}
+
 /* Common styles for blocks 2-4 */
 
 .section2 .subsection2 blockquote {
   margin: 0 0 24px;
   font-style: italic;
-}
-
-.section2 .subsection2 .block2 {
-  display: flex;
 }
 
 .section2 .subsection2 .content {
@@ -275,7 +310,6 @@ hr {
 }
 
 .subsection2 .avatars {
-  background-image: url(../assets/section2/avatar_2.png);
   width: 46px;
   height: 46px;
   margin-right: 14px;
