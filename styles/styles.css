@@ -156,6 +156,10 @@ hr {
 
 /* subsection1 */
 
+.section2 {
+  position: relative;
+}
+
 .section2 .subsection1 .content {
   max-width: 470px;
 }
@@ -220,7 +224,7 @@ hr {
 /* subsection2 */
 
 .section2 .subsection2 {
-  padding: 150px 0 90px;
+  padding: 150px 0 190px;
 }
 
 .section2 .subsection2 .block1 {
@@ -317,4 +321,63 @@ hr {
 
 .subsection2 .post {
   font-size: 14px;
+}
+
+/* Subsection 3 */
+
+.section2 .subsection3 {
+  padding: 150px 135px 355px;
+}
+
+.section2 .subsection3 h1 {
+  max-width: 610px;
+  padding-bottom: 86px;
+}
+
+.section2 .subsection3 table {
+  border-spacing: 90px 0;
+  margin-left: -60px;
+}
+
+.section2 .subsection3 .table_header {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.section2 .subsection3 .table_header td {
+  padding-bottom: 20px;
+}
+
+.section2 .subsection3 .table_description {
+  color: rgba(33, 56, 66, 0.6);
+  margin-bottom: 56px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.section2 .subsection3 .table_description td {
+  padding-bottom: 30px;
+}
+
+.section2 .motivation {
+  background-color: #fafafa;
+  box-shadow: 50px 130px 100px rgba(0, 0, 0, 0.145947);
+  padding: 70px 290px 70px 165px;
+  width: calc(100% - 165px);
+  position: absolute;
+  left: 0;
+  bottom: -185px;
+}
+
+.section2 .motivation h1 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 74px;
+  margin: 0 0 50px;
+}
+
+.section2 .motivation .expandable_link {
+  color: #d4d6d4;
 }
