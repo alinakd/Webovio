@@ -381,3 +381,108 @@ hr {
 .section2 .motivation .expandable_link {
   color: #d4d6d4;
 }
+
+/* SECTION 3 */
+
+.footer {
+  padding: 310px 165px 30px;
+  background-color: #4f553d;
+  background-image: url(/assets/footer/background_footer.svg);
+  color: #b6c197;
+}
+
+.footer .content {
+  display: flex;
+  padding: 65px 0;
+}
+
+.footer .contacts {
+  display: flex;
+  margin-bottom: 52px;
+}
+
+.footer .contacts .phone_number {
+  margin-right: 130px;
+}
+
+.footer .contacts h4 {
+  font-weight: 400;
+}
+
+.footer .contacts a {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+
+.footer hr {
+  background-color: #5d6544;
+  width: 100%;
+}
+
+.footer .additional_information {
+  border-right: solid #5d6544;
+  display: flex;
+  margin-right: 125px;
+}
+
+.footer .additional_information ul {
+  list-style-type: none;
+  margin: 30px 100px 0 0;
+  padding: 0;
+}
+
+.footer .title {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.footer .mail {
+  color: white;
+  font-weight: 700;
+  line-height: 38px;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.footer .additional_information li:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.footer .footer_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+a > .fa-brands {
+  color: #5e6648;
+}
+
+a:has(.fa-brands) {
+  width: 33px;
+  height: 33px;
+  text-decoration: none;
+  background-color: #444a34;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+a:has(.fa-brands):hover {
+  background-color: #ffd723;
+}
+
+a:has(.fa-brands):hover > .fa-brands {
+  color: #ffffff;
+}
+
+.footer .contact_info > * {
+  margin-bottom: 30px;
+}
